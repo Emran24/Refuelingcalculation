@@ -1,17 +1,18 @@
 <resources>
-
     <string name="app_name">"Расчет заправки ВС"</string>
-    <string name="residue">Остаток по бакам</string>
-    <string name="Left">Left</string>
-    <string name="Ctr">Ctr</string>
-    <string name="Right">Right</string>
-    <string name="TotalRefueling">Общая заправка</string>
+    <string name="Activity_title">Остаток по бакам</string>
+    <string name="LeftTankTextView11">Left</string> // Левый бак
+    <string name="CtrTankTextView12">Ctr</string>   //Центральный бак
+    <string name="RightTankTextView13">Right</string> // Правый бак
+    <string name="TotalRefueling">Общая заправка</string>   //Общая заправка
     <string name="Density">Плотность</string>
-    <string name="OTF">10 000</string>
-    <string name="TotalRefuelingOTF">30 000</string>
-    <string name="DensityOTF">0.914</string>
-    <string name="Cal1OTF">14 242 л</string>
-    <string name="Cal2OTF">16 230 кг</string>
+    <string name="editFuelTankLeft">10 000</string> //  Данные Левого бака
+    <string name="editFuelTankCtr">10 000</string>  //  Данные Центрального бака
+    <string name="editFuelTankRight">10 000</string>    //  Данные Правого бака
+    <string name="editTotalRefueling">30 000</string>   // Данные поля общая заправка
+    <string name="editDensity">0.914</string> //Данные поля Плотность
+    <string name="editResultLiters">14 242 л</string>
+    <string name="editResultKilograms">16 230 кг</string>
     <string name="Cal1">1</string>
     <string name="Cal2">2</string>
     <string name="Cal3">3</string>
