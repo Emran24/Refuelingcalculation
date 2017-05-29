@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">"Расчет заправки ВС"</string>
+    <string name="residue">Остаток по бакам</string>
+    <string name="Left">Left</string>
+    <string name="Ctr">Ctr</string>
+    <string name="Right">Right</string>
+    <string name="TotalRefueling">Общая заправка</string>
+    <string name="Density">Плотность</string>
+    <string name="OTF">10 000</string>
+    <string name="TotalRefuelingOTF">30 000</string>
+    <string name="DensityOTF">0.914</string>
+    <string name="Cal1OTF">14 242 л</string>
+    <string name="Cal2OTF">16 230 кг</string>
+    <string name="Cal1">1</string>
+    <string name="Cal2">2</string>
+    <string name="Cal3">3</string>
+    <string name="Cal4">4</string>
+    <string name="Cal5">5</string>
+    <string name="Cal6">6</string>
+    <string name="Cal7">7</string>
+    <string name="Cal8">8</string>
+    <string name="Cal9">9</string>
+    <string name="Cal0">0</string>
+    <string name="CalC">C</string>
+    <string name="CalZ">,</string>
+
+
+
+
+</resources>

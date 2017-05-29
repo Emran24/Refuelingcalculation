@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#2C2C2C</color>
+    <color name="colorAppBar">#2c3a49</color>
+    <color name="colorText">#999999</color>
+    <color name="colorVidobl">#2d3f51</color> //цвет выделенной области
+    <color name="colorTextVid">#7BCCC8</color>
+    <color name="colorTextcifr">#7ACAC7</color>
+    <color name="colorTextwith">#fcffff</color>
+
+
+</resources>
