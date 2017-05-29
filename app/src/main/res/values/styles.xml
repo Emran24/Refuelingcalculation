@@ -11,22 +11,34 @@
     </style>
 
     <style name="TextAppearance.FontPatch" parent="android:TextAppearance">
-        <item name="fontPatch">font/RobotoCondensed-Regular.ttf</item>
+        <item name="fontPatch">fonts/RobotoCondensed-Regular.ttf</item>
 
     </style>
 
     <style name="TableRow">
-        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_weight">1</item>
 
     </style>
-    <style name="TextLitNAme">
-        <item name="android:textColor">@android:color/darker_gray</item>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
         <item name="android:textAppearance">@style/TextAppearance.FontPatch</item>
 
     </style>
 
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
 
+    <style name="ButtonStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorTextwith</item>
+    </style>
 
 </resources>
