@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void initViews(){
         leftFuelTankEditText = (EditText) findViewById(R.id.leftFuelTankEdit);
         rightFuelTankEditText = (EditText) findViewById(R.id.rightFuelTankEdit);
-        centerFuelTankEditText = (EditText) findViewById(R.id.ctrFuelTankEdit);
+        centerFuelTankEditText = (EditText) findViewById(R.id.ctrFuelTankEdi);
         totalRefuelingEditText = (EditText) findViewById(R.id.totalRefuelingEdit);
         fuelDencityEditText = (EditText) findViewById(R.id.densityEdit);
         fuelAmountInLitersEditText = (EditText) findViewById(R.id.resultLitersEdit);
