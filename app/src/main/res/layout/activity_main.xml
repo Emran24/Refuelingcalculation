@@ -174,7 +174,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorBackground">
-
         <EditText
             style="@style/EditTextStyle"
             android:inputType="numberDecimal"
@@ -218,8 +217,13 @@
         <Button style="@style/ButtonStyle" android:text="00" />
         <Button style="@style/ButtonStyle" android:text="@string/zeroNumberBtn" />
         <Button style="@style/ButtonStyle" android:text="@string/commaSeparatorBtn"/>
-        <Button style="@style/ButtonStyle" android:layout_columnWeight="2" android:text="@string/resultAllBtn"
-            android:layout_columnSpan="2" />
+
+        <Button
+            android:id="@+id/resultAllBtn"
+            style="@style/ButtonStyle"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:text="@string/resultAllBtn" />
 
     </GridLayout>
 

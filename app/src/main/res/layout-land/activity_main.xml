@@ -276,9 +276,10 @@
                     android:text="@string/commaSeparatorBtn"/>
 
                 <Button
-                    android:layout_weight="0"
+                    android:id="@+id/resultAllBtn"
                     style="@style/ButtonStyle"
-                    android:text="@string/resultAllBtn"/>
+                    android:layout_weight="0"
+                    android:text="@string/resultAllBtn" />
 
                 <Button
                     android:layout_weight="0"
