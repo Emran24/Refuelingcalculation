@@ -1,32 +1,31 @@
 <resources>
     <string name="app_name">"Расчет заправки ВС"</string>
-    <string name="Activity_title">Остаток по бакам</string>
-    <string name="LeftTankTextView11">Left</string> // Левый бак
-    <string name="CtrTankTextView12">Ctr</string>   //Центральный бак
-    <string name="RightTankTextView13">Right</string> // Правый бак
-    <string name="TotalRefueling">Общая заправка</string>   //Общая заправка
-    <string name="Density">Плотность</string>
-    <string name="editFuelTankLeft">10 000</string> //  Данные Левого бака
-    <string name="editFuelTankCtr">10 000</string>  //  Данные Центрального бака
-    <string name="editFuelTankRight">10 000</string>    //  Данные Правого бака
-    <string name="editTotalRefueling">30 000</string>   // Данные поля общая заправка
-    <string name="editDensity">0.914</string> //Данные поля Плотность
-    <string name="editResultLiters">14 242 л</string>
-    <string name="editResultKilograms">16 230 кг</string>
-    <string name="Cal1">1</string>
-    <string name="Cal2">2</string>
-    <string name="Cal3">3</string>
-    <string name="Cal4">4</string>
-    <string name="Cal5">5</string>
-    <string name="Cal6">6</string>
-    <string name="Cal7">7</string>
-    <string name="Cal8">8</string>
-    <string name="Cal9">9</string>
-    <string name="Cal0">0</string>
-    <string name="CalC">C</string>
-    <string name="CalZ">,</string>
-
-
+    <string name="activity_title">Остаток по бакам</string>
+    <string name="leftFuelTankTextView">Left</string> // Левый бак
+    <string name="ctrFuelTankTextView">Ctr</string>   //Центральный бак
+    <string name="rightFuelTankTextView">Right</string> // Правый бак
+    <string name="totalRefuelingTextView">Общая заправка</string>   //Общая заправка
+    <string name="densityTextView">Плотность</string>
+    <string name="leftFuelTankEdit">10 000</string> //  Данные Левого бака
+    <string name="ctrFuelTankEdit">10 000</string>  //  Данные Центрального бака
+    <string name="rightFuelTankEdit">10 000</string>    //  Данные Правого бака
+    <string name="totalRefuelingEdit">30 000</string>   // Данные поля общая заправка
+    <string name="densityEdit">0.914</string> //Данные поля Плотность
+    <string name="resultLitersEdit">14 242 л</string>
+    <string name="resultKilogramsEdit">16 230 кг</string>
+    <string name="firstNumberBtn">1</string>
+    <string name="secondNumberBtn">2</string>
+    <string name="threeNumberBtn">3</string>
+    <string name="forNumberBtn">4</string>
+    <string name="fiveNumberBtn">5</string>
+    <string name="sixNumberBtn">6</string>
+    <string name="sevenNumberBtn">7</string>
+    <string name="eightNumberBtn">8</string>
+    <string name="nineNumberBtn">9</string>
+    <string name="zeroNumberBtn">0</string>
+    <string name="cleanAllBtn">C</string>
+    <string name="commaSeparatorBtn">,</string>
+    <string name="resultAllBtn">=</string>
 
 
 </resources>
