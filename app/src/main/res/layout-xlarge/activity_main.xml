@@ -24,7 +24,7 @@
             <TextView
                 style="@style/TextViewStyle"
                 android:id="@+id/TextView1"
-                android:text="@string/Activity_title"
+                android:text="@string/activity_title"
                 android:textSize="25sp"
                 android:padding="5dp"
                 android:textColor="@color/colorTextwith"
@@ -37,8 +37,8 @@
 
                     <TextView
                         style="@style/TextViewStyle"
-                        android:id="@+id/LeftTankTextView11"
-                        android:text="@string/LeftTankTextView11"
+                        android:id="@+id/leftFuelTankTextView"
+                        android:text="@string/leftFuelTankTextView"
                         android:textAlignment="viewEnd"
                         android:paddingRight="10dp"
                         android:paddingLeft="10dp"
@@ -49,8 +49,8 @@
                         style="@style/EditTextStyle"
                         android:inputType="numberDecimal"
                         android:ems="3"
-                        android:id="@+id/editFuelTankLeft"
-                        android:text="@string/editFuelTankLeft"
+                        android:id="@+id/eftFuelTankEdit"
+                        android:text="@string/leftFuelTankEdit"
                         android:textAlignment="textEnd"
                         android:textColor="@color/colorTextcifr"
                         android:cursorVisible="true"
@@ -64,9 +64,9 @@
                     android:layout_margin="1dp"
                     android:background="@color/colorBackground">
                     <TextView
-                        android:id="@+id/CtrTankTextView12"
+                        android:id="@+id/ctrFuelTankTextView"
                         style="@style/TextViewStyle"
-                        android:text="@string/CtrTankTextView12"
+                        android:text="@string/ctrFuelTankTextView"
                         android:textAlignment="viewEnd"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
@@ -76,8 +76,8 @@
                         style="@style/EditTextStyle"
                         android:inputType="numberDecimal"
                         android:ems="3"
-                        android:id="@+id/editFuelTankCtr"
-                        android:text="@string/editFuelTankCtr"
+                        android:id="@+id/ctrFuelTankEdit"
+                        android:text="@string/ctrFuelTankEdit"
                         android:textAlignment="textEnd"
                         android:textColor="@color/colorTextcifr"
                         android:cursorVisible="true"
@@ -92,8 +92,8 @@
                     android:background="@color/colorBackground">
                     <TextView
                         style="@style/TextViewStyle"
-                        android:id="@+id/RightTankTextView13"
-                        android:text="@string/RightTankTextView13"
+                        android:id="@+id/rightFuelTankTextView"
+                        android:text="@string/rightFuelTankTextView"
                         android:textAlignment="viewEnd"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
@@ -103,8 +103,8 @@
                         style="@style/EditTextStyle"
                         android:inputType="numberDecimal"
                         android:ems="3"
-                        android:id="@+id/editFuelTankRight"
-                        android:text="@string/editFuelTankRight"
+                        android:id="@+id/rightFuelTankEdit"
+                        android:text="@string/rightFuelTankEdit"
                         android:textAlignment="textEnd"
                         android:textColor="@color/colorTextcifr"
                         android:cursorVisible="true"
@@ -123,8 +123,8 @@
 
                 <TextView
                     style="@style/TextViewStyle"
-                    android:id="@+id/TextView2"
-                    android:text="@string/TotalRefueling"
+                    android:id="@+id/totalRefuelingTextView"
+                    android:text="@string/totalRefuelingTextView"
                     android:textSize="20sp"
                     android:padding="15dp" />
                 <EditText
@@ -132,8 +132,8 @@
                     android:layout_height="match_parent"
                     android:inputType="numberDecimal"
                     android:ems="3"
-                    android:id="@+id/editTotalRefueling"
-                    android:text="@string/editTotalRefueling"
+                    android:id="@+id/totalRefuelingEdit"
+                    android:text="@string/totalRefuelingEdit"
                     android:textAlignment="textEnd"
                     android:textColor="@color/colorTextcifr"
                     android:cursorVisible="true"
@@ -151,16 +151,16 @@
 
                 <TextView
                     style="@style/TextViewStyle"
-                    android:id="@+id/TextView3"
-                    android:text="@string/Density"
+                    android:id="@+id/densityTextView"
+                    android:text="@string/densityTextView"
                     android:textSize="20sp"
                     android:padding="15dp" />
                 <EditText
                     style="@style/EditTextStyle"
                     android:inputType="numberDecimal"
                     android:ems="3"
-                    android:id="@+id/editDensity"
-                    android:text="@string/editDensity"
+                    android:id="@+id/densityEdit"
+                    android:text="@string/densityEdit"
                     android:textAlignment="textEnd"
                     android:textColor="@color/colorTextcifr"
                     android:cursorVisible="true"
@@ -180,9 +180,9 @@
                     style="@style/EditTextStyle"
                     android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/editResultLiters"
+                    android:id="@+id/resultLitersEdit"
                     android:textAlignment="center"
-                    android:text="@string/editResultLiters"
+                    android:text="@string/resultLitersEdit"
                     android:textSize="60sp"
                     android:textColor="@color/colorTextwith" />
 
@@ -190,9 +190,9 @@
                     style="@style/EditTextStyle"
                     android:inputType="numberDecimal"
                     android:ems="5"
-                    android:id="@+id/editResultKilograms"
+                    android:id="@+id/resultKilogramsEdit"
                     android:textAlignment="center"
-                    android:text="@string/editResultKilograms"
+                    android:text="@string/resultKilogramsEdit"
                     android:textSize="25sp"
                     android:textColor="@color/colorText"
                     android:elevation="0dp"
@@ -204,17 +204,17 @@
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal7" />
+                    android:text="@string/sevenNumberBtn" />
 
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal8"/>
+                    android:text="@string/eightNumberBtn"/>
 
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal9"/>
+                    android:text="@string/nineNumberBtn"/>
 
                 <Button
                     android:layout_weight="1"
@@ -227,22 +227,22 @@
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal4"/>
+                    android:text="@string/forNumberBtn"/>
 
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal5"/>
+                    android:text="@string/fiveNumberBtn"/>
 
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal6"/>
+                    android:text="@string/sixNumberBtn"/>
 
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/CalC"/>
+                    android:text="@string/cleanAllBtn"/>
             </TableRow>
 
             <TableRow style="@style/TableRow" >
@@ -250,17 +250,17 @@
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal1"/>
+                    android:text="@string/firstNumberBtn"/>
 
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal2"/>
+                    android:text="@string/secondNumberBtn"/>
 
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal3"/>
+                    android:text="@string/threeNumberBtn"/>
 
                 <Button
                     android:layout_weight="1"
@@ -273,12 +273,12 @@
                 <Button
                     android:layout_weight="1"
                     style="@style/ButtonStyle"
-                    android:text="@string/Cal0"/>
+                    android:text="@string/commaSeparatorBtn"/>
 
                 <Button
                     android:layout_weight="0"
                     style="@style/ButtonStyle"
-                    android:text="@string/CalZ"/>
+                    android:text="@string/resultAllBtn"/>
 
                 <Button
                     android:layout_weight="0"
